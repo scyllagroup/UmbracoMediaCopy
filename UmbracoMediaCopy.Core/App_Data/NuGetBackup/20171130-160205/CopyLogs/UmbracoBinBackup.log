@@ -1,0 +1,28 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Thursday, November 30, 2017 4:02:06 PM
+   Source : C:\git\UmbracoMediaCopy\UmbracoMediaCopy.Core\bin\
+     Dest : C:\git\UmbracoMediaCopy\UmbracoMediaCopy.Core\App_Data\NuGetBackup\20171130-160205\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\git\UmbracoMediaCopy\UmbracoMediaCopy.Core\bin\
+	  New Dir          0	C:\git\UmbracoMediaCopy\UmbracoMediaCopy.Core\bin\Debug\
+	  New Dir          0	C:\git\UmbracoMediaCopy\UmbracoMediaCopy.Core\bin\Release\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         3         2         1         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Thursday, November 30, 2017 4:02:06 PM
+

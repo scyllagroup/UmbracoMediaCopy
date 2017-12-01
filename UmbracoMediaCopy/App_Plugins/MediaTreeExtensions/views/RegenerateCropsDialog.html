@@ -1,0 +1,34 @@
+﻿<div ng-controller="MediaTreeExtensions.RegenerateCropsController">
+    <div class="umb-dialog-body form-horizontal">
+        <div class="umb-pane">
+            <p class="abstract" ng-hide="success">
+                Click Ok below to regenerate the crops.
+            </p>
+            <div class="umb-loader-wrapper" ng-show="busy">
+                <div class="umb-loader"></div>
+            </div>
+
+            <div class="alert alert-error" ng-show="error">
+                <h4>{{error.errorMsg}}</h4>
+                <p>{{error.data.Message}}</p>
+            </div>
+
+            <div class="alert alert-success" ng-show="success">
+                <p>
+                    <strong>Successfully regenerated crops!</strong>
+                </p>
+
+                <button class="btn btn-primary" ng-click="nav.hideDialog()">Ok</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="umb-dialog-footer btn-toolbar umb-btn-toolbar" ng-hide="success">
+        <a class="btn btn-link" ng-click="nav.hideDialog()" ng-if="!busy">
+            <localize key="general_cancel">Cancel</localize>
+        </a>
+        <button class="btn btn-primary" ng-click="regenerateCrops()" ng-disabled="busy">
+            Regenerate Crops
+        </button>
+    </div>
+</div>

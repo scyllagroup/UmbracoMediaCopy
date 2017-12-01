@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoMediaCopy", "UmbracoMediaCopy\UmbracoMediaCopy.csproj", "{9421064E-5D76-4296-B0F8-CC762015E187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoMediaCopy.Core", "UmbracoMediaCopy.Core\UmbracoMediaCopy.Core.csproj", "{A6DAE350-3FCD-495B-B6B8-6CCE9A9F1296}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9421064E-5D76-4296-B0F8-CC762015E187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9421064E-5D76-4296-B0F8-CC762015E187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9421064E-5D76-4296-B0F8-CC762015E187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9421064E-5D76-4296-B0F8-CC762015E187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DAE350-3FCD-495B-B6B8-6CCE9A9F1296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DAE350-3FCD-495B-B6B8-6CCE9A9F1296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DAE350-3FCD-495B-B6B8-6CCE9A9F1296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DAE350-3FCD-495B-B6B8-6CCE9A9F1296}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
