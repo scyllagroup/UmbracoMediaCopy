@@ -1,4 +1,4 @@
-﻿using log4net;
+using log4net;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,7 +34,7 @@ namespace UmbracoMediaCopy.Core.App_Start
             //menuItem.SeperatorBefore = true;
             //menuItem.LaunchDialogUrl("")
 
-            menuItem.LaunchDialogView("/App_Plugins/MediaTreeExtensions/views/CopyMediaDialog.html", "Copy");
+            menuItem.LaunchDialogView("/App_Plugins/UmbracoMediaCopy/views/CopyMediaDialog.html", "Copy");
 
             args.Menu.Items.Insert(args.Menu.Items.Count - 1, menuItem);
         }
